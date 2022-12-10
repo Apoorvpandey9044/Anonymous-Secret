@@ -11,6 +11,8 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const findOrCreate = require('mongoose-findorcreate');
 const { response } = require('express');
 
+mongoose.set('strictQuery', true);
+
 
 
 
